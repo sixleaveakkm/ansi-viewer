@@ -12,7 +12,8 @@ const codemirrorExtensions = [
 </script>
 
 <template>
-  <codemirror :extensions="codemirrorExtensions" autofocus/>
+  <codemirror class="codemirror" :extensions="codemirrorExtensions" autofocus :style="{height: '100vh'}"/>
 </template>
 
-<style scoped></style>
+<style scoped>
+</style>
